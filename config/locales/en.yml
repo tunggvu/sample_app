@@ -1,0 +1,108 @@
+en:
+  static_pages:
+    home:
+      home: "Home"
+      welcome: "Welcome to the Sample App"
+      ruby_on_rails: "Ruby on Rails Tutorial"
+      signup: "Sign up now!"
+      image: "rails.png"
+      logo: "Rails logo"
+      this: "This is the home page for the"
+      app: "sample application."
+    help:
+      help: "Help"
+      tutorial_help: "Rails Tutorial help page"
+      tutorial: "Ruby on Rails Tutorial"
+      get: "Get help on the Ruby on Rails Tutorial at the"
+      sample_get: "To get help on this sample app, see the"
+      book: "book"
+    contact:
+      contact: "Contact"
+      page: "contact page"
+      sentence: "Contact the Ruby on Rails Tutorial about the sample app at the"
+    about:
+      about: "About"
+      tutorial: "Ruby on Rails Tutorial"
+      book: "book"
+      series: "series"
+      rails: "Ruby on Rails"
+      the: "the"
+      is: "is a"
+      and: "and"
+      teach: "to teach web development with"
+      this: "This is the sample application for the tutorial."
+  layouts:
+    application:
+      sample: "Ruby on Rails Tutorial Sample App"
+    header:
+      sample: "Sample App"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+      user: "Users"
+      account: "Account "
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
+    footer:
+      tutorial: "Ruby on Rails Tutorial"
+      name: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      the: "the"
+      by: "by"
+  users:
+    new:
+      signup: "Sign up"
+      name: "Enter Your Name"
+      mail: "Enter Your Email"
+      pass: "Enter Your Password"
+      confirm: "Confirmation"
+      confirm_pass: "Confirm Your Password"
+      create: "Create my account"
+    create:
+      welcome: "Welcome to the Sample App!"
+      activate: "Please check your email to activate your account."
+    edit:
+      edit: "Edit user"
+      update: "Update your profile"
+      save: "Save changes"
+      chane: "change"
+      login: "Please log in"
+      confirm: "Confirmation"
+    update:
+      updated: "Profile updated"
+    index:
+      users: "All users"
+      sure: "You sure?"
+      delete: "Delete"
+      login: "You must login first!"
+    destroy:
+      delete: "User deleted"
+      error: "Error: Cannot delete this user"
+      no_user: "This user doesn't exist"
+    show:
+      error: "Error: Cannot find user"
+  shared:
+    error_messages:
+      error: "Error"
+      contain: "The form contains "
+  sessions:
+    new:
+      login: "Login"
+      signup: "Sign up now!"
+      remembers: "Remember me on this computer"
+    create:
+      invalid: "Invalid email/password combination"
+      message: "Account not activated. Check your email for the activation link."
+  user_mailer:
+    account_activation:
+      activate: "Activate"
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      invalid: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      active: "Account activation"
