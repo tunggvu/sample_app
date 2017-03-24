@@ -15,3 +15,6 @@ page:
 gravatar:
   size1: 80
   size2: 50
+post:
+  maximum: 200
+  size: 50
