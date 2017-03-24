@@ -93,12 +93,15 @@ en:
       login: "Login"
       signup: "Sign up now!"
       remembers: "Remember me on this computer"
+      forgot: "(forgot password)"
     create:
       invalid: "Invalid email/password combination"
       message: "Account not activated. Check your email for the activation link."
   user_mailer:
     account_activation:
       activate: "Activate"
+    password_reset:
+      reset: "Reset password"
   account_activations:
     edit:
       activated: "Account activated!"
@@ -106,3 +109,20 @@ en:
   user_mailer:
     account_activation:
       active: "Account activation"
+      reset: "Password reset"
+  password_resets:
+    edit:
+      reset: "Reset password"
+      confirm: "Confirmation"
+      update: "Update password"
+    new:
+      forgot: "Forgot password"
+      submit: "Submit"
+    create:
+      sent: "Email sent with password reset instructions"
+      not_found: "Email address not found"
+    update:
+      empty: "can't be empty"
+      reset: "Password has been reset."
+    check_expiration:
+      expired: "Password reset has expired."
