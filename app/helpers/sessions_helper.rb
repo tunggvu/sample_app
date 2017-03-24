@@ -29,10 +29,6 @@ module SessionsHelper
     current_user.present?
   end
 
-  def logged_in_checkout
-    redirect_to root_url if current_user.present?
-  end
-
   def forget user
     user.forget
     cookies.delete :user_id
