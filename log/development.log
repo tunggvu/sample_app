@@ -8501,3 +8501,29 @@ Processing by PasswordResetsController#new as HTML
 Completed 200 OK in 46ms (Views: 41.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-03-24 11:27:53 +0700
+Started GET "/" for 127.0.0.1 at 2017-03-24 11:27:53 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1855.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (1858.8ms)
+  Rendered layouts/_rails_default.html.erb (75.9ms)
+  Rendered layouts/_shim.html.erb (1.1ms)
+  Rendered layouts/_rails_default.html.erb (84.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 124], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 124], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (11.5ms)
+  Rendered layouts/_header.html.erb (9.8ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1981ms (Views: 1962.6ms | ActiveRecord: 0.5ms)
+
+
+Completed 200 OK in 1982ms (Views: 1966.3ms | ActiveRecord: 0.1ms)
+
+
