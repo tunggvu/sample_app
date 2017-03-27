@@ -9,6 +9,7 @@ en:
       logo: "Rails logo"
       this: "This is the home page for the"
       app: "sample application."
+      alert: "Maximum file size is 10MB. Please choose a smaller file."
     help:
       help: "Help"
       tutorial_help: "Rails Tutorial help page"
@@ -84,10 +85,17 @@ en:
       no_user: "This user doesn't exist"
     show:
       error: "Error: Cannot find user"
+      post: "Microposts ("
   shared:
     error_messages:
       error: "Error"
       contain: "The form contains "
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
+      alert: "Maximum file size is 10MB. Please choose a smaller file."
+    user_info:
+      view: "View my profile"
   sessions:
     new:
       login: "Login"
@@ -126,3 +134,9 @@ en:
       reset: "Password has been reset."
     check_expiration:
       expired: "Password reset has expired."
+  microposts:
+    micropost:
+      post: "Posted "
+      ago: " ago."
+      delete: "delete"
+      sure: "You sure?"

@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20170324093920) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string   "picture"
+    t.index ["user_id", nil], name: "index_microposts_on_user_id_and_create_at"
     t.index ["user_id"], name: "index_microposts_on_user_id"
   end
 

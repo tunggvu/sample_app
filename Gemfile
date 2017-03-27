@@ -25,6 +25,7 @@ gem "faker"
 gem "carrierwave", "0.11.2"
 gem "mini_magick", "4.5.1"
 gem "fog", "1.38.0"
+gem "i18n-js", ">=3.0.0.rc11"
 
 group :development, :test do
   gem "byebug", platform: :mri
